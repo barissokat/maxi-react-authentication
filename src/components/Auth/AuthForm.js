@@ -5,7 +5,7 @@ import AuthContext from '../../store/auth-context'
 import classes from './AuthForm.module.css'
 
 const AuthForm = () => {
-  const navigate = useNavigate ()
+  const navigate = useNavigate()
   const emailInputRef = useRef()
   const passwordInputRef = useRef()
 
